@@ -10,7 +10,7 @@ class Projects extends Component {
         <h1 className="text-center">Projects</h1>
         {/* Row 1 */}
         <div class="card-deck">
-          <div class="card">
+          <div class="card bg-dark text-white">
             <img
               src={require("../assets/projects/bellsmartcity.png")}
               class="card-img-top"
@@ -24,7 +24,7 @@ class Projects extends Component {
               </p>
               <a
                 href="https://business.bell.ca/shop/medium-large/internet-of-things/smart-cities"
-                class="btn btn-secondary btn-lg active" 
+                class="btn btn-outline-light btn-lg" 
                 role="button" 
                 aria-pressed="true"
               >
@@ -36,7 +36,7 @@ class Projects extends Component {
         {/* Row 2 */}
         <br></br>
         <div class="card-deck">
-          <div class="card">
+          <div class="card bg-dark text-white">
             <img
               src={require("../assets/projects/arcticminers.jpg")}
               class="card-img-top"
@@ -49,18 +49,18 @@ class Projects extends Component {
                 An Angular visualizer to simplify and display ERC721 Tokens using Smart Contracts and Web3
               </p>
               <a href="https://devpost.com/software/blockchaingame" 
-              class="btn btn-secondary active" 
+              class="btn btn-outline-light" 
               role="button" 
               aria-pressed="true">
                   Check it out
               </a>
               <a href="https://github.com/flodesi/Arctic-Miner" 
               class="btn">
-                <i class="fab fa-github-square"></i>
+                <i class="fab fa-github-square text-light"></i>
               </a>
             </div>
           </div>
-          <div class="card">
+          <div class="card bg-dark text-white">
             <img
               src={require("../assets/projects/safebet.jpg")}
               class="card-img-top"
@@ -74,18 +74,18 @@ class Projects extends Component {
                 habits based on an algorithm trained with Amazon SageMaker to report realtime data. 
               </p>
               <a href="https://devpost.com/software/safe_bet" 
-              class="btn btn-secondary active" 
+              class="btn btn-outline-light" 
               role="button" 
               aria-pressed="true">
                   Check it out
               </a>
               <a href="https://github.com/AlexXuChen/safe_bet" 
               class="btn">
-                <i class="fab fa-github-square"></i>
+                <i class="fab fa-github-square text-light"></i>
               </a>
             </div>
           </div>
-          <div class="card">
+          <div class="card bg-dark text-white">
             <img
               src={require("../assets/projects/robodropper.jpg")}
               class="card-img-top"
@@ -99,7 +99,7 @@ class Projects extends Component {
                 beneficial to 3rd world education.
               </p>
               <a href="https://www.artsci.utoronto.ca/news/hackathon-science-education-hacking-better-world?fbclid=IwAR0T7zmL5y94kUCAwGm61Thg08iLqUJiyj7BvgP7fm5xFYEy1xx_UfL-Mxo" 
-              class="btn btn-secondary active" 
+              class="btn btn-outline-light" 
               role="button" 
               aria-pressed="true">
                   Check it out
@@ -111,7 +111,7 @@ class Projects extends Component {
 
         {/* Row 3 */}
         <div class="card-deck">
-          <div class="card">
+          <div class="card bg-dark text-white">
             <img
               src={require("../assets/projects/desperado.png")}
               class="card-img-top"
@@ -126,11 +126,11 @@ class Projects extends Component {
               </p>
               <a href="https://github.com/faarisali/desperado-android" 
               class="btn">
-                <i class="fab fa-github-square"></i>
+                <i class="fab fa-github-square text-light"></i>
               </a>
             </div>
           </div>
-          <div class="card">
+          <div class="card bg-dark text-white">
             <img
               src={require("../assets/projects/twiliochatbot.png")}
               class="card-img-top"
@@ -144,14 +144,14 @@ class Projects extends Component {
                 communication, powered by regular expressions.
               </p>
               <a href="https://www.twilio.com/bots" 
-              class="btn btn-secondary active" 
+              class="btn btn-outline-light" 
               role="button" 
               aria-pressed="true">
                   Check it out
               </a>
             </div>
           </div>
-          <div class="card">
+          <div class="card bg-dark text-white">
             <img
               src={require("../assets/projects/fpgasimonsays.jpg")}
               class="card-img-top"
@@ -165,7 +165,7 @@ class Projects extends Component {
               </p>
               <a href="https://github.com/ShirleyofHuang/FPGA_SimonSays" 
               class="btn">
-                <i class="fab fa-github-square"></i>
+                <i class="fab fa-github-square text-light"></i>
               </a>
             </div>
           </div>
