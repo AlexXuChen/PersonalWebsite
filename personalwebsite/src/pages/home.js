@@ -15,7 +15,7 @@ class Home extends Component {
           <a href="https://github.com/AlexXuChen/" target="_blank">
             <i className="fab fa-github text-light"></i>
           </a>
-          <a href="https://drive.google.com/file/d/1R49bBVCqB2V_vYC-LH8Xsheh32t1CpRG/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1JJ5kDOz58-wKnhIdTPE750drIYOohkFJ/view?usp=sharing" target="_blank">
             <i class="far fa-file-alt text-light"></i>
           </a>
           <a href="mailto:alexxu.chen@mail.utoronto.ca" target="_blank">

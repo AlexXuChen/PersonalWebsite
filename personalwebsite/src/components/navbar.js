@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll } from "react-scroll";
 
-// import "./navStyles.css";
-
 class NavigationBar extends Component {
   scrollToTop = () => {
     animateScroll.scrollToTop({ duration: 300 });
