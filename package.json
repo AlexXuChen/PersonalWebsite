@@ -1,6 +1,6 @@
 {
-  "homepage": "https://AlexXuChen.github.io/PersonalWebsite",
-  "name": "PersonalWebsite",
+  "homepage": "https://AlexXuChen.github.io/profile",
+  "name": "profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,8 +19,8 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "predeply": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
