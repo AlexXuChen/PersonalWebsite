@@ -82,7 +82,7 @@ canvas{
   color: #fff;
   margin-top: 40px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 h1 {
@@ -94,3 +94,6 @@ h1 {
   font-style: italic;
 }
 
+.insta-tag {
+  text-align: right;
+}
