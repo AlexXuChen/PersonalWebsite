@@ -8,19 +8,8 @@ class NavigationBar extends Component {
 
   render() {
     return (
-      <div>
-        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-0">
-          <button
-            class="navbar-toggler my-2"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+      <div> 
+        <nav className="navbar navbar-expand-sm bg-dark navbar-dark sticky-top py-0">
           <div className="collapse navbar-collapse" id="navbarNav">
             <div className="navbar-nav ml-auto">
               <a className="nav-item nav-link" onClick={this.scrollToTop}>
